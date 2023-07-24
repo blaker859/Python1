@@ -4,8 +4,8 @@ letters= sorted(pangram)
 print(letters)
 
 numbers = [2.3,4.5,8.7,3.1,1.6]
-sorted= sorted(numbers)
-print(sorted)
+sorted_numbers= sorted(numbers)
+print(sorted_numbers)
 print(numbers)
 # another_sorted_numbers = numbers.sort()
 numbers.sort()

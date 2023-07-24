@@ -1,6 +1,0 @@
-Python
-
-	Binary Search
-		split the data in half each time
-		most efficient way of finding an item in an ordered list
-		allows for very fast searching of the data
