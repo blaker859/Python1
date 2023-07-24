@@ -53,3 +53,28 @@ Python
 				missing_letter = sorted("The quick brown fox jumped over the lazy dog",
 							key=str.casefold)
 				names.sort(key=str.casefold)
+				
+		Creating a list
+			list() creates a list from any iterable
+			
+			concatenating
+			
+			slicing an existing list
+				more_numbers = numbers[:]
+				
+			copy()
+				new function that copies a sequence
+				
+		Tuples
+			ordered set of data
+			immutable
+			prints in parentheses rather than square brackets
+			parentheses are optional unless we pass a tuple literal into a function
+				best practice just to surround them with parentheses
+			pros:
+				tuples use less memory than lists
+				protect integrity of your data, using things that shouldn't change
+				
+		
+		Unpacking a Tuple
+			

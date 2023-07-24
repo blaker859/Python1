@@ -19,5 +19,14 @@ sorted_numbers = sorted(numbers)
 print(sorted_numbers)
 print(numbers)
 
-digits = sorted("432985617")
+# list creates a list from any iterable
+digits = list("432985617") 
 print(digits)
+
+# more_numbers = list(numbers)
+# more_numbers = numbers[:]
+more_numbers = numbers.copy()
+print(more_numbers)
+
+print(numbers is more_numbers)
+print(numbers == more_numbers)
