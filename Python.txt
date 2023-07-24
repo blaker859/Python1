@@ -74,7 +74,13 @@ Python
 			pros:
 				tuples use less memory than lists
 				protect integrity of your data, using things that shouldn't change
-				
+				can't append so unpacking will always be the same
 		
 		Unpacking a Tuple
-			
+			can unpack sequence types
+				data = 1, 2, 76
+				x, y, z = data
+				
+				data_list = [12,14,13]
+				p,q,r = data_list
+				print(p,q,r)
