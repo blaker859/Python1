@@ -1,0 +1,55 @@
+Python
+
+	Binary Search
+		split the data in half each time
+		most efficient way of finding an item in an ordered list
+		allows for very fast searching of the data
+		
+	Lists and Tuples
+		Sequence is an ordered collection of items
+			if it wasn't then we couldn't reference by index
+
+		
+		Iteratable
+			anything we can iterate over
+			object that contains either an __iter__ method
+				or __getitem__ method
+			indexing starts at zero
+				not all iterables are sequences
+
+		
+		Common Sequence Operations
+			append
+			count
+				.count("s")
+			max
+			min
+			len
+				how many items does this datastructure contain
+		
+		
+		Enumerate
+			returns each item with its indexed position
+				ex:
+				for index, character in enumerate("abcdefgh"):
+					print(index, character)
+		
+		
+		Sorting Things
+			.sorted()
+			sorting a list you will get a new list back
+				Uppercase will be before lowercase
+				Spaces will be included
+				Letters will be doubled
+			
+			.sort()
+			changes the list
+			assigning it to a new variable and printing it will result in "none"
+			
+			## Python lets you rebind existing functions, so be careful with variable names
+			
+		Case-insensitive Sorting
+			casefold
+				missing_letter = sorted("The quick brown fox jumped over the lazy dog",
+							key=str.casefold)
+				names.sort(key=str.casefold)
